@@ -1,0 +1,144 @@
+[
+  {
+    "id": "chronoir",
+    "name": "ChroNoiR",
+    "nameReading": "くろのわーる",
+    "nameEnglish": "ChroNoiR",
+    "members": [
+      {
+        "name": "叶",
+        "nameReading": "かなえ",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "葛葉",
+        "nameReading": "くずは",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "gaming",
+    "status": "active",
+    "description": "にじさんじを代表する男性ライバーコンビ。ゲーム配信やトークで高い人気を誇る。",
+    "createdAt": "2018-07-01",
+    "activities": [
+      {
+        "type": "stream",
+        "title": "APEX配信",
+        "date": "2024-01-15"
+      }
+    ],
+    "games": ["APEX Legends", "Among Us", "マインクラフト"],
+    "platforms": ["youtube", "twitter"],
+    "hashtags": ["#ChroNoiR"],
+    "popularity": 95,
+    "tags": ["男性ライバー", "ゲーミング", "人気", "1期生"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "sankisei",
+    "name": "さんばか",
+    "nameReading": "さんばか",
+    "members": [
+      {
+        "name": "委員長",
+        "nameReading": "いいんちょう",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "シスター・クレア",
+        "nameReading": "しすたーくれあ",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "リゼ・ヘルエスタ",
+        "nameReading": "りぜへるえすた",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 3,
+    "category": "variety",
+    "status": "active",
+    "description": "にじさんじの女性ライバーによる3人組。バラエティに富んだ企画で人気。",
+    "createdAt": "2018-08-01",
+    "games": ["雑談", "ゲーム実況"],
+    "platforms": ["youtube", "twitter"],
+    "hashtags": ["#さんばか"],
+    "popularity": 85,
+    "tags": ["女性ライバー", "バラエティ", "3人組"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "rof-mao",
+    "name": "ROF-MAO",
+    "nameReading": "ろふまお",
+    "members": [
+      {
+        "name": "ローレン・イロアス",
+        "nameReading": "ろーれんいろあす",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "オリバー・エバンス",
+        "nameReading": "おりばーえばんす",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "フミ",
+        "nameReading": "ふみ",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "真澄",
+        "nameReading": "ますみ",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "アクシア・クローネ",
+        "nameReading": "あくしあくろーね",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "オウ・ガ",
+        "nameReading": "おうが",
+        "generation": "エデン組",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 6,
+    "category": "gaming",
+    "status": "active",
+    "description": "エデン組によるFPSチーム。チームワークを活かした配信が特徴。",
+    "createdAt": "2021-05-01",
+    "games": ["VALORANT", "APEX Legends"],
+    "platforms": ["youtube", "twitter"],
+    "hashtags": ["#ROFMAO"],
+    "popularity": 80,
+    "tags": ["男性ライバー", "FPS", "エデン組", "チーム戦"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  }
+]
