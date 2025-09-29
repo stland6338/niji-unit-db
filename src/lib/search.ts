@@ -1,7 +1,7 @@
 import Fuse from 'fuse.js';
-import { UnitData, SearchFilters } from '@/types';
+import { UnitData, SearchFilters } from '@/types/unit';
 
-const fuseOptions: Fuse.IFuseOptions<UnitData> = {
+const fuseOptions = {
   keys: [
     { name: 'name', weight: 0.3 },
     { name: 'nameReading', weight: 0.3 },
@@ -14,6 +14,44 @@ const fuseOptions: Fuse.IFuseOptions<UnitData> = {
   includeScore: true,
   includeMatches: true,
 };
+
+export function searchUnits(units: UnitData[], filters: SearchFilters): UnitData[] {
+  let result = [...units];
+
+  // Apply filters first
+  if (filters.category?.length) {
+    result = result.filter(unit => filters.category!.includes(unit.category));
+  }
+
+  if (filters.status?.length) {
+    result = result.filter(unit => filters.status!.includes(unit.status));
+  }
+
+  if (filters.branch?.length) {
+    result = result.filter(unit => 
+      unit.members.some(member => filters.branch!.includes(member.branch))
+    );
+  }
+
+  if (filters.memberCount?.length) {
+    result = result.filter(unit => filters.memberCount!.includes(unit.memberCount));
+  }
+
+  if (filters.tags?.length) {
+    result = result.filter(unit => 
+      filters.tags!.some(tag => unit.tags.includes(tag))
+    );
+  }
+
+  // Apply text search if query exists
+  if (filters.query?.trim()) {
+    const fuse = new Fuse(result, fuseOptions);
+    const searchResults = fuse.search(filters.query);
+    result = searchResults.map(res => res.item);
+  }
+
+  return result;
+}
 
 export class UnitSearchEngine {
   private fuse: Fuse<UnitData>;
@@ -67,7 +105,7 @@ export class UnitSearchEngine {
   }
 
   searchAndFilter(units: UnitData[], query: string, filters: SearchFilters): UnitData[] {
-    let filteredUnits = this.filter(units, filters);
+    const filteredUnits = this.filter(units, filters);
     
     if (query.trim()) {
       // Update fuse instance with filtered units for search

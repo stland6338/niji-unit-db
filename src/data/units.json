@@ -6,24 +6,24 @@
     "nameEnglish": "ChroNoiR",
     "members": [
       {
-        "name": "叶",
-        "nameReading": "かなえ",
+        "name": "葛葉",
+        "nameReading": "くずは",
         "generation": "1期生",
         "branch": "jp",
         "status": "active"
       },
       {
-        "name": "葛葉",
-        "nameReading": "くずは",
+        "name": "叶",
+        "nameReading": "かなえ",
         "generation": "1期生",
         "branch": "jp",
         "status": "active"
       }
     ],
     "memberCount": 2,
-    "category": "gaming",
+    "category": "music",
     "status": "active",
-    "description": "にじさんじを代表する男性ライバーコンビ。ゲーム配信やトークで高い人気を誇る。",
+    "description": "葛葉と叶による音楽ユニット。にじさんじ内でも特に人気の高いコンビ",
     "createdAt": "2018-07-01",
     "activities": [
       {
@@ -36,94 +36,55 @@
     "platforms": ["youtube", "twitter"],
     "hashtags": ["#ChroNoiR"],
     "popularity": 95,
-    "tags": ["男性ライバー", "ゲーミング", "人気", "1期生"],
+    "tags": ["duo", "music", "popular", "1期生"],
     "lastUpdated": "2024-01-15",
     "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
   },
   {
-    "id": "sankisei",
-    "name": "さんばか",
-    "nameReading": "さんばか",
+    "id": "vachss",
+    "name": "VACHSS",
+    "nameReading": "ばっくす",
+    "nameEnglish": "VACHSS",
     "members": [
       {
-        "name": "委員長",
-        "nameReading": "いいんちょう",
+        "name": "剣持刀也",
+        "nameReading": "けんもちとうや",
         "generation": "1期生",
         "branch": "jp",
         "status": "active"
       },
       {
-        "name": "シスター・クレア",
-        "nameReading": "しすたーくれあ",
+        "name": "叶",
+        "nameReading": "かなえ",
         "generation": "1期生",
         "branch": "jp",
         "status": "active"
       },
       {
-        "name": "リゼ・ヘルエスタ",
-        "nameReading": "りぜへるえすた",
+        "name": "葛葉",
+        "nameReading": "くずは",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "夢追翔",
+        "nameReading": "ゆめおいかける",
+        "generation": "1期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "加賀美ハヤト",
+        "nameReading": "かがみはやと",
         "generation": "2期生",
         "branch": "jp",
         "status": "active"
-      }
-    ],
-    "memberCount": 3,
-    "category": "variety",
-    "status": "active",
-    "description": "にじさんじの女性ライバーによる3人組。バラエティに富んだ企画で人気。",
-    "createdAt": "2018-08-01",
-    "games": ["雑談", "ゲーム実況"],
-    "platforms": ["youtube", "twitter"],
-    "hashtags": ["#さんばか"],
-    "popularity": 85,
-    "tags": ["女性ライバー", "バラエティ", "3人組"],
-    "lastUpdated": "2024-01-15",
-    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
-  },
-  {
-    "id": "rof-mao",
-    "name": "ROF-MAO",
-    "nameReading": "ろふまお",
-    "members": [
-      {
-        "name": "ローレン・イロアス",
-        "nameReading": "ろーれんいろあす",
-        "generation": "エデン組",
-        "branch": "jp",
-        "status": "active"
       },
       {
-        "name": "オリバー・エバンス",
-        "nameReading": "おりばーえばんす",
-        "generation": "エデン組",
-        "branch": "jp",
-        "status": "active"
-      },
-      {
-        "name": "フミ",
-        "nameReading": "ふみ",
-        "generation": "エデン組",
-        "branch": "jp",
-        "status": "active"
-      },
-      {
-        "name": "真澄",
-        "nameReading": "ますみ",
-        "generation": "エデン組",
-        "branch": "jp",
-        "status": "active"
-      },
-      {
-        "name": "アクシア・クローネ",
-        "nameReading": "あくしあくろーね",
-        "generation": "エデン組",
-        "branch": "jp",
-        "status": "active"
-      },
-      {
-        "name": "オウ・ガ",
-        "nameReading": "おうが",
-        "generation": "エデン組",
+        "name": "不破湊",
+        "nameReading": "ふわみなと",
+        "generation": "2期生",
         "branch": "jp",
         "status": "active"
       }
@@ -131,13 +92,271 @@
     "memberCount": 6,
     "category": "gaming",
     "status": "active",
-    "description": "エデン組によるFPSチーム。チームワークを活かした配信が特徴。",
-    "createdAt": "2021-05-01",
-    "games": ["VALORANT", "APEX Legends"],
+    "description": "男性メンバーによる大型ゲーミングユニット",
+    "games": ["VALORANT", "APEX Legends", "Among Us"],
     "platforms": ["youtube", "twitter"],
-    "hashtags": ["#ROFMAO"],
-    "popularity": 80,
-    "tags": ["男性ライバー", "FPS", "エデン組", "チーム戦"],
+    "hashtags": ["#VACHSS"],
+    "popularity": 90,
+    "tags": ["gaming", "large-group", "male"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "ai-kyuu-torokeru",
+    "name": "あいきゅーとろける",
+    "nameReading": "あいきゅーとろける",
+    "members": [
+      {
+        "name": "夜見れな",
+        "nameReading": "よみれな",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "天宮こころ",
+        "nameReading": "あまみやこころ",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "魔使マオ",
+        "nameReading": "まつかいまお",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "フレン・E・ルスタリオ",
+        "nameReading": "ふれん・いー・るすたりお",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 4,
+    "category": "variety",
+    "status": "active",
+    "description": "2期生女性メンバーによるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 75,
+    "tags": ["quartet", "2期生", "variety"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "akasha-no-ken",
+    "name": "アーカーシャの剣",
+    "nameReading": "アーカーシャのけん",
+    "nameEnglish": "Akasha no Ken",
+    "members": [
+      {
+        "name": "加賀美ハヤト",
+        "nameReading": "かがみはやと",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "イブラヒム",
+        "nameReading": "いぶらひむ",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "collaboration",
+    "status": "active",
+    "description": "加賀美ハヤトとイブラヒムによるコラボユニット",
+    "games": ["APEX Legends", "VALORANT"],
+    "platforms": ["youtube", "twitter"],
+    "popularity": 70,
+    "tags": ["duo", "gaming"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "aa-koto-hisupi",
+    "name": "あーことひすぴ",
+    "nameReading": "あーことひすぴ",
+    "members": [
+      {
+        "name": "朝日南アカネ",
+        "nameReading": "あさひなみあかね",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "北小路ヒスイ",
+        "nameReading": "きたこうじひすい",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "collaboration",
+    "status": "active",
+    "description": "朝日南アカネと北小路ヒスイによるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 65,
+    "tags": ["duo", "3期生"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "aa-ko-hakku",
+    "name": "アーコハック",
+    "nameReading": "あーこはっく",
+    "members": [
+      {
+        "name": "朝日南アカネ",
+        "nameReading": "あさひなみあかね",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "東堂コハク",
+        "nameReading": "とうどうこはく",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "collaboration",
+    "status": "active",
+    "description": "朝日南アカネと東堂コハクによるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 65,
+    "tags": ["duo", "3期生"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "aigami",
+    "name": "愛神",
+    "nameReading": "あいがみ",
+    "nameEnglish": "Aigami",
+    "members": [
+      {
+        "name": "愛園愛美",
+        "nameReading": "あいぞのまなみ",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "神田笑花",
+        "nameReading": "かんだえみか",
+        "generation": "3期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "collaboration",
+    "status": "active",
+    "description": "愛園愛美と神田笑花によるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 65,
+    "tags": ["duo", "3期生"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "ice-cream",
+    "name": "アイス組",
+    "nameReading": "あいすぐみ",
+    "nameEnglish": "Ice Cream Group",
+    "members": [
+      {
+        "name": "フミ",
+        "nameReading": "ふみ",
+        "generation": "Gamers",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "ひなの",
+        "nameReading": "ひなの",
+        "generation": "",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "variety",
+    "status": "active",
+    "description": "フミとひなのによるアイスクリーム好きユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 60,
+    "tags": ["duo", "food", "variety"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "aqua-marine",
+    "name": "アクアマリン",
+    "nameReading": "あくあまりん",
+    "nameEnglish": "Aqua Marine",
+    "members": [
+      {
+        "name": "町田ちま",
+        "nameReading": "まちだちま",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "鈴原るる",
+        "nameReading": "すずはらるる",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "graduated"
+      }
+    ],
+    "memberCount": 2,
+    "category": "collaboration",
+    "status": "inactive",
+    "description": "町田ちまと鈴原るるによるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 55,
+    "tags": ["duo", "2期生", "historical"],
+    "lastUpdated": "2024-01-15",
+    "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
+  },
+  {
+    "id": "ankimo",
+    "name": "あんきも",
+    "nameReading": "あんきも",
+    "members": [
+      {
+        "name": "安土桃",
+        "nameReading": "あづちもも",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      },
+      {
+        "name": "鈴木勝",
+        "nameReading": "すずきまさる",
+        "generation": "2期生",
+        "branch": "jp",
+        "status": "active"
+      }
+    ],
+    "memberCount": 2,
+    "category": "variety",
+    "status": "active",
+    "description": "安土桃と鈴木勝によるコラボユニット",
+    "platforms": ["youtube", "twitter"],
+    "popularity": 65,
+    "tags": ["duo", "2期生", "variety"],
     "lastUpdated": "2024-01-15",
     "sources": ["https://wikiwiki.jp/nijisanji/コラボ一覧表"]
   }
