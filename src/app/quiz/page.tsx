@@ -1,12 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { UnitData, QuizQuestion } from '@/types/unit';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import unitsData from '@/data/units.json';
+import { getUnits } from '@/lib/data';
 
 function generateQuizQuestions(units: UnitData[]): QuizQuestion[] {
   const questions: QuizQuestion[] = [];
@@ -80,10 +80,12 @@ export default function QuizPage() {
   const [answeredQuestions, setAnsweredQuestions] = useState<number[]>([]);
   const [quizStarted, setQuizStarted] = useState(false);
 
+  const allUnits = useMemo(() => getUnits(), []);
+
   useEffect(() => {
-    const generatedQuestions = generateQuizQuestions(unitsData as UnitData[]);
+    const generatedQuestions = generateQuizQuestions(allUnits);
     setQuestions(generatedQuestions.slice(0, 10)); // 10問に制限
-  }, []);
+  }, [allUnits]);
 
   const currentQuestion = questions[currentQuestionIndex];
 
